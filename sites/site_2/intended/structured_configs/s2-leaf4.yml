@@ -1,3 +1,4 @@
+hostname: s2-leaf4
 static_routes:
 - vrf: default
   destination_address_prefix: 0.0.0.0/0
@@ -18,7 +19,7 @@ local_users:
 - name: arista
   privilege: 15
   role: network-admin
-  sha512_password: $6$workshop$5Llb6kE2/P4Zx.1yLwkd9QfMtazdVEPYmJG3pfgrhT2dhka.5odGw6xS19uMSerZIhi.q2krArh9Dl8qMi2B60
+  sha512_password: $6$workshop$YM3nP.G6/RfNUELL04pH7WK4zhAyrxR9GlSC2ZT9G2w/hlX4JxUWn4UZ9e7dK0tr2r4l0RIOMgjdz0KcIxqnB/
 vrfs:
 - name: default
   ip_routing: false
